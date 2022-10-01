@@ -1,0 +1,62 @@
+* {
+    font-family: 'VT323', monospace;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    width: 100vw;
+    background: linear-gradient( to right, lightblue, lightgreen);
+    margin: -8px;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 35vw;
+    height: 50vh;
+    position: absolute;
+    top: 30vh;
+
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(221, 218, 255);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 70px;
+}
+
+.block:hover {
+    background: linear-gradient( to right, lightblue, lightgreen)
+
+}
+
+.result {
+    position: absolute;
+    top: 18vh;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button {
+    position: absolute;
+    top: 85vh;
+    padding: 20px;
+}
+
+button:hover {
+    background: linear-gradient( to right, lightblue, lightgreen);
+}
